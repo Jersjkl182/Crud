@@ -1,0 +1,124 @@
+/* Diseño general */
+body {
+  background-image: url(img/fondo.jpg); /* Fondo suave */
+  font-family: 'Arial', sans-serif;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+/* Estilo para el contenedor principal */
+#marco {
+  background-color: #9c8f8fa6;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 1100px;
+}
+
+/* Estilo para el título */
+.title {
+  color: #ffffff;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Estilos para la tabla */
+.table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #000000aa; /* Color gris oscuro para encabezados */
+  color: white;
+}
+
+.table td {
+  background-color: #f8f9faae; /* Fondo claro para las celdas */
+  border: 1px solid #dee2e6; /* Borde suave */
+}
+
+.table tr:hover {
+  background-color: #e9ecef; /* Resaltar al pasar el ratón */
+}
+
+/* Botón de agregar */
+.btn-primary {
+  background-color: #7b5757a3;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 10px 15px;
+  margin-top: 20px;
+}
+
+.btn-primary:hover {
+  background-color: #894a4a; /* Color más oscuro al hacer hover */
+}
+
+/* Estilo para los botones dentro de la tabla */
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* Ajustes para el formulario de editar y agregar */
+.form-group label {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.form-group input {
+  width: 95%;
+  padding: 12px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Estilo para los botones en formularios */
+.tarjeta button {
+  margin-top: 10px;
+  font-weight: bold;
+  padding: 12px 20px;
+}
+
+.btn-info {
+  background-color: #17a3b800;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn-info:hover {
+  background-color: #ffffff61;
+}
+
+.btn-warning {
+  background-color: #ffffff00;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn-warning:hover {
+  background-color: #8888;
+}
+
+/* Agregar fondo claro al body en el formulario de agregar/editar */
+body {
+  background-color: #f4f7fb;
+}
